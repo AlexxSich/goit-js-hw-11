@@ -62,5 +62,4 @@ function userInputHandler(event) {
 
     function imagesArr(arr) {
         return arr.hits.map(imageTemplate).join("");
-    }
-    console.log("test - це значить що гіт не оновив зміни")
+    };
