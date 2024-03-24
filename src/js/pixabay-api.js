@@ -1,8 +1,5 @@
-// const loader = document.querySelector(".loader-container")
 
-
-export function getImages(searchedImg) {
-    // loader.classList.add("active");
+export function getImages(searchedImg) {    
 
     const BASE_URL = 'https://pixabay.com/api/';
     const params = new URLSearchParams({
@@ -13,11 +10,7 @@ export function getImages(searchedImg) {
         safesearch: true,
     });
     const url = `${BASE_URL}?${params}`;
-
-    // setTimeout(() => {
-    //     loader.classList.remove("active");
-    //    }, 1000);
-       
+ 
 return fetch(url).then(res => res.json());
 
 }
