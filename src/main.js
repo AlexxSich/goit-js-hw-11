@@ -4,6 +4,8 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
+console.log("test")
+
 import "./js/pixabay-api"
 import "./js/render-functions"
 
