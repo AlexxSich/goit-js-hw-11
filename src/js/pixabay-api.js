@@ -12,5 +12,4 @@ export function getImages(searchedImg) {
     const url = `${BASE_URL}?${params}`;
  
 return fetch(url).then(res => res.json());
-
 }
