@@ -12,4 +12,5 @@ export function getImages(searchedImg) {
     const url = `${BASE_URL}?${params}`;
  
 return fetch(url).then(res => res.json());
+// тут треба прописати  код для помилки 404 бо fetch не вважає це помилкою
 }
